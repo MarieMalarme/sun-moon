@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Sun Moon';
+  src: url('./sun-moon-okok.ttf') format('truetype');
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  background: blue;
+  flex-direction: column;
+  user-select: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#font {
+  position: fixed;
+  font-size: 500px;
+  font-family: 'Sun Moon';
+}
+
+.text {
+  padding: 3rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 15px;
+  font-size: 50px;
+}
